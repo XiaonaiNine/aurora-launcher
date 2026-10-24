@@ -1,0 +1,9 @@
+{
+  "name": "aurora-launcher",
+  "productName": "Aurora Launcher",
+  "version": "1.0.0",
+  "description": "Aurora 极光启动器 —— 内置 Minecraft 游戏本体与版本文件下载",
+  "main": "main.cjs",
+  "author": "Aurora",
+  "license": "MIT"
+}

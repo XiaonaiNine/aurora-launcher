@@ -1,0 +1,34 @@
+{
+  "name": "aurora-launcher",
+  "version": "1.0.0",
+  "description": "Minecraft Java 版启动器：版本下载与管理、完整性校验、Java 运行时、离线与微软账户登录",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "author": "Aurora Launcher contributors",
+  "homepage": "https://github.com/XiaonaiNine/aurora-launcher",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XiaonaiNine/aurora-launcher.git"
+  },
+  "bugs": {
+    "url": "https://github.com/XiaonaiNine/aurora-launcher/issues"
+  },
+  "engines": {
+    "node": ">=20.6"
+  },
+  "scripts": {
+    "start": "node src/main.js",
+    "start:no-open": "node src/main.js --no-open",
+    "test": "node --test",
+    "icon": "node tools/make-icon.mjs",
+    "build": "node tools/build-exe.mjs"
+  },
+  "keywords": [
+    "minecraft",
+    "minecraft-launcher",
+    "launcher",
+    "electron",
+    "microsoft-oauth"
+  ]
+}

@@ -1,0 +1,24 @@
+# 依赖（本项目零第三方依赖，保留以防万一）
+node_modules/
+
+# 打包产物
+dist/
+out/
+release/
+
+# 运行期数据：游戏文件、日志、账号令牌
+data/
+*.log
+aurora-boot.log
+*.part
+
+# 打包前置资源（体积大，按需自行下载）
+.build/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
